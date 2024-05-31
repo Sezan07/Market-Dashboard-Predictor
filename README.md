@@ -36,7 +36,7 @@ Ensure you have the following installed on your machine:
 
     ```bash
     cd frontend
-    npm install
+    npx install react
     ```
 
 2. **Backend Setup:**
