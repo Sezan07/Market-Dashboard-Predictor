@@ -1,79 +1,70 @@
-# Market Dashboard and Predictor
+# Getting Started with Create React App
 
-This project is a market dashboard and predictor that provides users with portfolio management, market data, and top mutual fund information. It is built using React, Flask, MySQL, and the Yahoo Finance API.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Market Dashboard**: View real-time market data and trends.
-- **User Portfolio Management**: Manage and track your investments.
-- **Market Data Fetching**: Retrieve the latest market data from the Yahoo Finance API.
-- **Top Mutual Fund Information**: Get information on top mutual funds.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- **Frontend**: React
-- **Backend**: Flask
-- **Database**: MySQL
-- **Data Source**: Yahoo Finance API
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Setup
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Prerequisites
+### `npm test`
 
-Ensure you have the following installed on your machine:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Node.js and npm
-- Python and pip
-- MySQL
+### `npm run build`
 
-### Installation
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. **Frontend Setup:**
+### `npm run eject`
 
-    Navigate to the `frontend` directory and install the dependencies:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-    ```bash
-    cd frontend
-    npx install react
-    ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2. **Backend Setup:**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-    Navigate to the `backend` directory and install the dependencies:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-    ```bash
-    cd ../backend
-    pip install flask
-    ```
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3. **Environment Variables:**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-    Create a `.env` file in the `backend` directory and add your MySQL database configuration:
+### Code Splitting
 
-    ```plaintext
-    MYSQL_USER=your_mysql_username
-    MYSQL_PASSWORD=your_mysql_password
-    MYSQL_DB=market_dashboard
-    MYSQL_HOST=localhost
-    ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-4. **Running the Development Servers:**
+### Analyzing the Bundle Size
 
-    - **Frontend (React):**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-      ```bash
-      cd frontend
-      npm start
-      ```
+### Making a Progressive Web App
 
-    - **Backend (Flask):**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-      ```bash
-      cd ../backend
-      python/python3 app.py
-      ```
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
